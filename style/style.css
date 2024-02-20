@@ -45,7 +45,7 @@ figure {
     margin: auto;
     display: flex;    
     background: var(--White);
-    height: 70vh ;
+    height: 80vh ;
     flex-direction: column;
 }
 .parrafos{
@@ -59,14 +59,14 @@ img {
     height: 300px;
     margin: 10px auto;
 }
-h2 {
+h1 {
     color: var(--Darkblue);
     text-align: center;
     width: 80%;    
     font-size: 1.25rem;
     font-weight: 850;
 }
-h4 {
+p {
     color: var(--Grayishblue);
     font-size: 0.75rem;
     width: 70%;    
@@ -91,17 +91,17 @@ a:hover{
 
 @media screen and (min-width:1440px){
     footer{
-        font-size: 1rem;
+        display: none;
     }    
-    h2{
-        font-size: 1.5rem;
+    h1{
+        font-size: 1.4rem;
         width: 91%;
     }
-    h4{
-        font-size: 1rem;
+    p{
+        font-size: 0.8rem;
         width: 86%;
     }
     .imagen{
-        height: 56vh;
+        height: 60vh;
     }
 }
